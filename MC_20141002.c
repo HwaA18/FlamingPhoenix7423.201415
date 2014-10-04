@@ -21,8 +21,6 @@ task main()
 {
 	while(true) {
 		getJoystickSettings(joystick);
-		moveRobot();
+		moveRobot(); //Move the robot
 	}
-
-
 }
