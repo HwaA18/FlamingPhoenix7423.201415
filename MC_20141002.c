@@ -8,7 +8,7 @@
 
 #include "JoystickDriver.c"
 
-
+///Strafing
 void moveRobot() {
 	motor[motorFR] = joystick.joy1_y1 - joystick.joy1_x1;
 	motor[motorBL] = joystick.joy1_y1 - joystick.joy1_x1;
